@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dakshin | Luxury South India Travel & Destinations</title>
+  <meta name="description" content="Discover the timeless beauty of South India. Explore curated journeys across Kerala, Telangana, Ooty, and Kodaikanal with bespoke itineraries and premium experiences.">
+  <meta name="keywords" content="South India tourism, Kerala backwaters, Telangana heritage, Ooty hill station, Kodaikanal mist, luxury South India tours">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient Glow Blobs -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-icon"><i class="fa-solid fa-compass"></i></span>
+        <span class="brand-text">DAKSHIN<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+          <li class="nav-item"><a href="#packages" class="nav-link">Packages</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-actions">
+          <a href="#contact" class="btn btn-primary btn-sm mobile-only">Plan Your Journey</a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm desktop-only">Plan Your Journey</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-bg-overlay"></div>
+      
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-chip fade-in">
+            <span class="pulse-dot"></span>
+            <span>Curated South Indian Expeditions</span>
+          </div>
+          
+          <h1 class="hero-title fade-in delay-1">
+            Explore the Beauty of <br>
+            <span class="gradient-text">South India</span>
+          </h1>
+          
+          <p class="hero-description fade-in delay-2">
+            Immerse yourself in emerald backwaters, majestic Nizami architectural marvels, and mist-cloaked pine valleys. Journey through the timeless allure of <strong>Kerala</strong>, <strong>Telangana</strong>, <strong>Ooty</strong>, and <strong>Kodaikanal</strong>.
+          </p>
+
+          <div class="hero-cta-group fade-in delay-3">
+            <a href="#destinations" class="btn btn-gradient">
+              <span>Discover Destinations</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#packages" class="btn btn-glass">
+              <i class="fa-solid fa-compass"></i>
+              <span>Curated Packages</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics -->
+          <div class="hero-stats fade-in delay-4">
+            <div class="stat-item">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Iconic Regions</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">4.9<i class="fa-solid fa-star stat-star"></i></span>
+              <span class="stat-label">Traveler Rating</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Scenic Trails</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Spotlight Cards -->
+        <div class="hero-visual fade-in delay-2">
+          <div class="hero-card-grid">
+            <!-- Kerala Card -->
+            <div class="hero-preview-card" data-hero-dest="kerala" onclick="scrollToSection('destinations', 'kerala')">
+              <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=700&q=80" alt="Kerala Backwaters" class="card-img" loading="lazy">
+                <div class="card-gradient"></div>
+              </div>
+              <div class="card-caption">
+                <span class="card-tag"><i class="fa-solid fa-water"></i> Backwaters</span>
+                <h3 class="card-name">Kerala</h3>
+                <p class="card-meta">God's Own Country</p>
+              </div>
+            </div>
+
+            <!-- Telangana Card -->
+            <div class="hero-preview-card" data-hero-dest="telangana" onclick="scrollToSection('destinations', 'telangana')">
+              <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df8?auto=format&fit=crop&w=700&q=80" alt="Telangana Charminar" class="card-img" loading="lazy">
+                <div class="card-gradient"></div>
+              </div>
+              <div class="card-caption">
+                <span class="card-tag"><i class="fa-solid fa-monument"></i> Heritage</span>
+                <h3 class="card-name">Telangana</h3>
+                <p class="card-meta">Royal Deccan Splendour</p>
+              </div>
+            </div>
+
+            <!-- Ooty Card -->
+            <div class="hero-preview-card" data-hero-dest="ooty" onclick="scrollToSection('destinations', 'ooty')">
+              <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=700&q=80" alt="Ooty Nilgiri Hills" class="card-img" loading="lazy">
+                <div class="card-gradient"></div>
+              </div>
+              <div class="card-caption">
+                <span class="card-tag"><i class="fa-solid fa-mountain"></i> Nilgiris</span>
+                <h3 class="card-name">Ooty</h3>
+                <p class="card-meta">Queen of Hill Stations</p>
+              </div>
+            </div>
+
+            <!-- Kodaikanal Card -->
+            <div class="hero-preview-card" data-hero-dest="kodaikanal" onclick="scrollToSection('destinations', 'kodaikanal')">
+              <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80" alt="Kodaikanal Mist & Cliffs" class="card-img" loading="lazy">
+                <div class="card-gradient"></div>
+              </div>
+              <div class="card-caption">
+                <span class="card-tag"><i class="fa-solid fa-cloud"></i> Mist Valley</span>
+                <h3 class="card-name">Kodaikanal</h3>
+                <p class="card-meta">Princess of Hill Retreats</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Search Floating Bar -->
+      <div class="container hero-search-wrap">
+        <div class="quick-search-bar glass-panel fade-in delay-4">
+          <div class="search-field">
+            <span class="field-icon"><i class="fa-solid fa-location-dot"></i></span>
+            <div class="field-info">
+              <label for="quickDestSelect">Destination</label>
+              <select id="quickDestSelect">
+                <option value="all">All South India</option>
+                <option value="kerala">Kerala (Backwaters & Hills)</option>
+                <option value="telangana">Telangana (Heritage & Forts)</option>
+                <option value="ooty">Ooty (Nilgiris & Tea)</option>
+                <option value="kodaikanal">Kodaikanal (Misty Cliffs & Lakes)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="search-divider"></div>
+
+          <div class="search-field">
+            <span class="field-icon"><i class="fa-solid fa-calendar"></i></span>
+            <div class="field-info">
+              <label for="quickSeasonSelect">Best Season</label>
+              <select id="quickSeasonSelect">
+                <option value="all">Any Month</option>
+                <option value="winter">Winter (Oct – Feb)</option>
+                <option value="spring">Spring (Mar – May)</option>
+                <option value="monsoon">Monsoon Magic (Jun – Sep)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="search-divider"></div>
+
+          <div class="search-field">
+            <span class="field-icon"><i class="fa-solid fa-person-walking-luggage"></i></span>
+            <div class="field-info">
+              <label for="quickTypeSelect">Experience</label>
+              <select id="quickTypeSelect">
+                <option value="all">All Experiences</option>
+                <option value="nature">Backwaters & Nature</option>
+                <option value="heritage">Forts & Royal Heritage</option>
+                <option value="hills">Misty Hill Stations</option>
+                <option value="wellness">Ayurveda & Rejuvenation</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-gradient btn-search" id="quickSearchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Find Journeys</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About South India Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">The Southern Symphony</span>
+          <h2 class="section-title">Where Ancient Heritage Meets <span class="gradient-text">Ethereal Nature</span></h2>
+          <p class="section-subtitle">
+            South India is an enchanting tapestry of lush tropical palms, dramatic Deccan stone fortresses, fragrant cardamom ridges, and cloud-draped mountain retreats.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story Card -->
+          <div class="about-story glass-card">
+            <div class="story-badge">
+              <i class="fa-solid fa-feather-pointed"></i>
+              <span>Our Philosophy</span>
+            </div>
+            <h3 class="story-title">Crafted for the Discerning Explorer</h3>
+            <p class="story-text">
+              We specialize in immersive, slow-paced, and authentic journeys across South India's four most captivating landscapes. Whether drifting through the emerald labyrinth of Alleppey's backwaters on a handcrafted cedar houseboat, admiring the soaring minarets of Hyderabad, or breathing the eucalyptus-scented crisp air of Ooty and Kodaikanal, our expeditions are designed to leave indelible memories.
+            </p>
+            <div class="story-highlights">
+              <div class="story-pill"><i class="fa-solid fa-check"></i> Handpicked Heritage Stays</div>
+              <div class="story-pill"><i class="fa-solid fa-check"></i> Private Chauffeurs & Naturalists</div>
+              <div class="story-pill"><i class="fa-solid fa-check"></i> Zero Hassle Booking</div>
+              <div class="story-pill"><i class="fa-solid fa-check"></i> Sustainable Eco-Tourism</div>
+            </div>
+          </div>
+
+          <!-- Feature Cards Grid -->
+          <div class="about-features-grid">
+            <div class="feature-card glass-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-water"></i>
+              </div>
+              <h4 class="feature-title">Kerala Backwaters</h4>
+              <p class="feature-desc">Tranquil canal networks, Ayurvedic sanctuaries, and cascading Western Ghats tea plantations.</p>
+            </div>
+
+            <div class="feature-card glass-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-monument"></i>
+              </div>
+              <h4 class="feature-title">Telangana Grandeur</h4>
+              <p class="feature-desc">Nizami palaces, Golconda fortress acoustics, UNESCO Ramappa stone carvings, and legendary cuisine.</p>
+            </div>
+
+            <div class="feature-card glass-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-train"></i>
+              </div>
+              <h4 class="feature-title">Ooty Highland Magic</h4>
+              <p class="feature-desc">UNESCO Nilgiri mountain toy train, rolling tea gardens, pine forests, and cool alpine breezes.</p>
+            </div>
+
+            <div class="feature-card glass-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-cloud-sun"></i>
+              </div>
+              <h4 class="feature-title">Kodaikanal Shola Mist</h4>
+              <p class="feature-desc">Star-shaped lakes, cliff walks above the clouds, hidden waterfalls, and peaceful botanical trails.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="section destinations-section" id="destinations">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Destinations</span>
+          <h2 class="section-title">Four Legendary <span class="gradient-text">Southern Escapes</span></h2>
+          <p class="section-subtitle">
+            Explore curated highlights, optimal travel seasons, and signature experiences for each iconic destination.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs-wrap">
+          <div class="filter-tabs" id="destFilterTabs">
+            <button class="filter-btn active" data-filter="all">
+              <i class="fa-solid fa-layer-group"></i> All Places (4)
+            </button>
+            <button class="filter-btn" data-filter="kerala">
+              <i class="fa-solid fa-water"></i> Kerala
+            </button>
+            <button class="filter-btn" data-filter="telangana">
+              <i class="fa-solid fa-archway"></i> Telangana
+            </button>
+            <button class="filter-btn" data-filter="ooty">
+              <i class="fa-solid fa-mountain"></i> Ooty
+            </button>
+            <button class="filter-btn" data-filter="kodaikanal">
+              <i class="fa-solid fa-cloud-fog"></i> Kodaikanal
+            </button>
+          </div>
+        </div>
+
+        <!-- Destination Cards Container -->
+        <div class="destinations-grid" id="destinationsGrid">
+          
+          <!-- Destination 1: Kerala -->
+          <article class="destination-card glass-card" data-category="kerala">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=80" alt="Kerala Alleppey Backwaters" class="dest-img" loading="lazy">
+              <div class="dest-badge">
+                <i class="fa-solid fa-shield-heart"></i> God's Own Country
+              </div>
+              <div class="dest-price-chip">
+                <span>From</span> <strong>₹18,500</strong> <small>/ person</small>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="dest-meta-header">
+                <span class="dest-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</span>
+                <span class="dest-rating"><i class="fa-solid fa-star"></i> 4.95 (1.2k reviews)</span>
+              </div>
+
+              <h3 class="dest-name">Kerala</h3>
+              <p class="dest-intro">
+                A serene realm of palm-fringed lagoons, spice-laden hills of Munnar, cliffside beaches of Varkala, and soothing Ayurvedic wellness.
+              </p>
+
+              <div class="dest-highlights-list">
+                <span class="hl-chip"><i class="fa-solid fa-ship"></i> Alleppey Houseboats</span>
+                <span class="hl-chip"><i class="fa-solid fa-leaf"></i> Munnar Tea Slopes</span>
+                <span class="hl-chip"><i class="fa-solid fa-umbrella-beach"></i> Varkala Cliffs</span>
+                <span class="hl-chip"><i class="fa-solid fa-masks-theater"></i> Kathakali Art</span>
+              </div>
+
+              <div class="dest-details-row">
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-calendar-check"></i> Best Time</span>
+                  <span class="detail-val">Sept – March</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-clock"></i> Ideal Trip</span>
+                  <span class="detail-val">5 – 8 Days</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-solid fa-temperature-half"></i> Climate</span>
+                  <span class="detail-val">22°C – 31°C</span>
+                </div>
+              </div>
+
+              <div class="card-footer-btns">
+                <button class="btn btn-outline btn-sm open-dest-modal" data-dest-id="kerala">
+                  <i class="fa-solid fa-circle-info"></i> Explore Guide
+                </button>
+                <button class="btn btn-primary btn-sm book-dest-btn" data-dest-name="Kerala">
+                  <span>Plan Trip</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 2: Telangana -->
+          <article class="destination-card glass-card" data-category="telangana">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df8?auto=format&fit=crop&w=900&q=80" alt="Telangana Charminar at Dusk" class="dest-img" loading="lazy">
+              <div class="dest-badge">
+                <i class="fa-solid fa-crown"></i> Deccan Splendour
+              </div>
+              <div class="dest-price-chip">
+                <span>From</span> <strong>₹14,900</strong> <small>/ person</small>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="dest-meta-header">
+                <span class="dest-location"><i class="fa-solid fa-location-dot"></i> Telangana, India</span>
+                <span class="dest-rating"><i class="fa-solid fa-star"></i> 4.90 (980 reviews)</span>
+              </div>
+
+              <h3 class="dest-name">Telangana</h3>
+              <p class="dest-intro">
+                Immerse yourself in royal Nizami heritage, the acoustic brilliance of Golconda Fort, world-famous Biryani, and UNESCO Ramappa Temple.
+              </p>
+
+              <div class="dest-highlights-list">
+                <span class="hl-chip"><i class="fa-solid fa-archway"></i> Charminar & Old City</span>
+                <span class="hl-chip"><i class="fa-solid fa-fort-awesome"></i> Golconda Fortress</span>
+                <span class="hl-chip"><i class="fa-solid fa-place-of-worship"></i> Ramappa Temple (UNESCO)</span>
+                <span class="hl-chip"><i class="fa-solid fa-utensils"></i> Nizami Gastronomy</span>
+              </div>
+
+              <div class="dest-details-row">
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-calendar-check"></i> Best Time</span>
+                  <span class="detail-val">Oct – March</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-clock"></i> Ideal Trip</span>
+                  <span class="detail-val">3 – 5 Days</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-solid fa-temperature-half"></i> Climate</span>
+                  <span class="detail-val">18°C – 29°C</span>
+                </div>
+              </div>
+
+              <div class="card-footer-btns">
+                <button class="btn btn-outline btn-sm open-dest-modal" data-dest-id="telangana">
+                  <i class="fa-solid fa-circle-info"></i> Explore Guide
+                </button>
+                <button class="btn btn-primary btn-sm book-dest-btn" data-dest-name="Telangana">
+                  <span>Plan Trip</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 3: Ooty -->
+          <article class="destination-card glass-card" data-category="ooty">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Ooty Nilgiri Valley" class="dest-img" loading="lazy">
+              <div class="dest-badge">
+                <i class="fa-solid fa-feather"></i> Queen of Nilgiri Hills
+              </div>
+              <div class="dest-price-chip">
+                <span>From</span> <strong>₹12,800</strong> <small>/ person</small>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="dest-meta-header">
+                <span class="dest-location"><i class="fa-solid fa-location-dot"></i> Tamil Nadu (Nilgiris)</span>
+                <span class="dest-rating"><i class="fa-solid fa-star"></i> 4.92 (1.4k reviews)</span>
+              </div>
+
+              <h3 class="dest-name">Ooty (Udhagamandalam)</h3>
+              <p class="dest-intro">
+                Nestled in the Nilgiri blue mountains with century-old steam toy trains, aromatic tea plantations, Pykara waterfalls, and alpine lakes.
+              </p>
+
+              <div class="dest-highlights-list">
+                <span class="hl-chip"><i class="fa-solid fa-train-subway"></i> Nilgiri Toy Train (UNESCO)</span>
+                <span class="hl-chip"><i class="fa-solid fa-water"></i> Pykara Lake & Boating</span>
+                <span class="hl-chip"><i class="fa-solid fa-mountain-sun"></i> Doddabetta Peak</span>
+                <span class="hl-chip"><i class="fa-solid fa-mug-hot"></i> Artisanal Tea Tasting</span>
+              </div>
+
+              <div class="dest-details-row">
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-calendar-check"></i> Best Time</span>
+                  <span class="detail-val">Oct – June</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-clock"></i> Ideal Trip</span>
+                  <span class="detail-val">3 – 5 Days</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-solid fa-temperature-half"></i> Climate</span>
+                  <span class="detail-val">10°C – 20°C</span>
+                </div>
+              </div>
+
+              <div class="card-footer-btns">
+                <button class="btn btn-outline btn-sm open-dest-modal" data-dest-id="ooty">
+                  <i class="fa-solid fa-circle-info"></i> Explore Guide
+                </button>
+                <button class="btn btn-primary btn-sm book-dest-btn" data-dest-name="Ooty">
+                  <span>Plan Trip</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 4: Kodaikanal -->
+          <article class="destination-card glass-card" data-category="kodaikanal">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt="Kodaikanal Cliffs and Clouds" class="dest-img" loading="lazy">
+              <div class="dest-badge">
+                <i class="fa-solid fa-gem"></i> Princess of Hill Stations
+              </div>
+              <div class="dest-price-chip">
+                <span>From</span> <strong>₹11,900</strong> <small>/ person</small>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="dest-meta-header">
+                <span class="dest-location"><i class="fa-solid fa-location-dot"></i> Tamil Nadu (Palani Hills)</span>
+                <span class="dest-rating"><i class="fa-solid fa-star"></i> 4.88 (1.1k reviews)</span>
+              </div>
+
+              <h3 class="dest-name">Kodaikanal</h3>
+              <p class="dest-intro">
+                A pristine sanctuary of cloud-draped granite cliffs, star-shaped lakes, eucalyptus forests, and secluded valley waterfalls.
+              </p>
+
+              <div class="dest-highlights-list">
+                <span class="hl-chip"><i class="fa-solid fa-clover"></i> Star-Shaped Kodai Lake</span>
+                <span class="hl-chip"><i class="fa-solid fa-mountain"></i> Pillar Rocks & Mist</span>
+                <span class="hl-chip"><i class="fa-solid fa-shoe-prints"></i> Coaker's Cloud Walk</span>
+                <span class="hl-chip"><i class="fa-solid fa-tree"></i> Pine Forest & Guna Caves</span>
+              </div>
+
+              <div class="dest-details-row">
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-calendar-check"></i> Best Time</span>
+                  <span class="detail-val">Sept – May</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-regular fa-clock"></i> Ideal Trip</span>
+                  <span class="detail-val">3 – 4 Days</span>
+                </div>
+                <div class="detail-box">
+                  <span class="detail-lbl"><i class="fa-solid fa-temperature-half"></i> Climate</span>
+                  <span class="detail-val">12°C – 22°C</span>
+                </div>
+              </div>
+
+              <div class="card-footer-btns">
+                <button class="btn btn-outline btn-sm open-dest-modal" data-dest-id="kodaikanal">
+                  <i class="fa-solid fa-circle-info"></i> Explore Guide
+                </button>
+                <button class="btn btn-primary btn-sm book-dest-btn" data-dest-name="Kodaikanal">
+                  <span>Plan Trip</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Curated Tour Packages Section -->
+    <section class="section packages-section" id="packages">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Bespoke Itineraries</span>
+          <h2 class="section-title">Curated <span class="gradient-text">Travel Packages</span></h2>
+          <p class="section-subtitle">
+            Thoughtfully planned signature circuits featuring private transport, luxury stays, cultural encounters, and dedicated local hosts.
+          </p>
+        </div>
+
+        <div class="packages-grid">
+          
+          <!-- Package 1: Kerala -->
+          <div class="package-card glass-card">
+            <div class="pkg-header">
+              <span class="pkg-duration"><i class="fa-regular fa-clock"></i> 6 Days / 5 Nights</span>
+              <span class="pkg-badge">Best Seller</span>
+            </div>
+            <h3 class="pkg-title">Kerala Backwaters & Mist Trails</h3>
+            <p class="pkg-route"><i class="fa-solid fa-route"></i> Kochi &rarr; Munnar &rarr; Alleppey &rarr; Marari</p>
+            <p class="pkg-desc">Cruise the backwaters in a luxury private houseboat, trek through rolling Munnar tea valleys, and unwind by pristine coastal shores.</p>
+            
+            <ul class="pkg-features">
+              <li><i class="fa-solid fa-circle-check"></i> Private luxury AC houseboat with chef</li>
+              <li><i class="fa-solid fa-circle-check"></i> Colonial tea estate resort in Munnar</li>
+              <li><i class="fa-solid fa-circle-check"></i> Sunset Kathakali and spice garden walk</li>
+              <li><i class="fa-solid fa-circle-check"></i> Chauffeur-driven private sedan throughout</li>
+            </ul>
+
+            <div class="pkg-footer">
+              <div class="pkg-price">
+                <span class="pkg-price-lbl">Starting from</span>
+                <span class="pkg-price-val">₹24,500 <small>/ person</small></span>
+              </div>
+              <button class="btn btn-primary btn-sm select-pkg-btn" data-package="Kerala Backwaters & Mist Trails">
+                Inquire Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Package 2: Telangana -->
+          <div class="package-card glass-card">
+            <div class="pkg-header">
+              <span class="pkg-duration"><i class="fa-regular fa-clock"></i> 4 Days / 3 Nights</span>
+              <span class="pkg-badge">Cultural</span>
+            </div>
+            <h3 class="pkg-title">Royal Deccan Heritage & Pearls</h3>
+            <p class="pkg-route"><i class="fa-solid fa-route"></i> Hyderabad &rarr; Golconda &rarr; Warangal</p>
+            <p class="pkg-desc">Step into the regal world of the Nizams, explore whispered acoustic fortresses, taste authentic culinary jewels, and visit Kakatiya temples.</p>
+            
+            <ul class="pkg-features">
+              <li><i class="fa-solid fa-circle-check"></i> 5-star Heritage Palace / Boutique hotel stay</li>
+              <li><i class="fa-solid fa-circle-check"></i> Guided Golconda sound & light spectacle</li>
+              <li><i class="fa-solid fa-circle-check"></i> Curated Old City gastronomic Biryani walk</li>
+              <li><i class="fa-solid fa-circle-check"></i> Day excursion to UNESCO Ramappa Temple</li>
+            </ul>
+
+            <div class="pkg-footer">
+              <div class="pkg-price">
+                <span class="pkg-price-lbl">Starting from</span>
+                <span class="pkg-price-val">₹18,900 <small>/ person</small></span>
+              </div>
+              <button class="btn btn-primary btn-sm select-pkg-btn" data-package="Royal Deccan Heritage & Pearls">
+                Inquire Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Package 3: Ooty -->
+          <div class="package-card glass-card">
+            <div class="pkg-header">
+              <span class="pkg-duration"><i class="fa-regular fa-clock"></i> 4 Days / 3 Nights</span>
+              <span class="pkg-badge">Highland Escape</span>
+            </div>
+            <h3 class="pkg-title">Nilgiri Mountain Rail & Tea Haven</h3>
+            <p class="pkg-route"><i class="fa-solid fa-route"></i> Coimbatore &rarr; Coonoor &rarr; Ooty &rarr; Pykara</p>
+            <p class="pkg-desc">Ride the historic UNESCO steam toy train across pine trestle bridges, wake up to misty Nilgiri tea slopes, and boat on tranquil Pykara Lake.</p>
+            
+            <ul class="pkg-features">
+              <li><i class="fa-solid fa-circle-check"></i> Reserved First-Class Toy Train tickets</li>
+              <li><i class="fa-solid fa-circle-check"></i> Heritage British colonial bungalow stay</li>
+              <li><i class="fa-solid fa-circle-check"></i> Private tea-plucking & tasting workshop</li>
+              <li><i class="fa-solid fa-circle-check"></i> Pykara speed boating & Doddabetta sunset</li>
+            </ul>
+
+            <div class="pkg-footer">
+              <div class="pkg-price">
+                <span class="pkg-price-lbl">Starting from</span>
+                <span class="pkg-price-val">₹16,400 <small>/ person</small></span>
+              </div>
+              <button class="btn btn-primary btn-sm select-pkg-btn" data-package="Nilgiri Mountain Rail & Tea Haven">
+                Inquire Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Package 4: Kodaikanal -->
+          <div class="package-card glass-card">
+            <div class="pkg-header">
+              <span class="pkg-duration"><i class="fa-regular fa-clock"></i> 3 Days / 2 Nights</span>
+              <span class="pkg-badge">Romantic / Mist</span>
+            </div>
+            <h3 class="pkg-title">Kodaikanal Shola Valley & Mist Retreat</h3>
+            <p class="pkg-route"><i class="fa-solid fa-route"></i> Madurai &rarr; Kodaikanal &rarr; Vattakanal</p>
+            <p class="pkg-desc">Breathe in refreshing eucalyptus air, stroll along cloud-surrounded Coaker's Walk, bike around Kodai Lake, and discover hidden waterfalls.</p>
+            
+            <ul class="pkg-features">
+              <li><i class="fa-solid fa-circle-check"></i> Cliffside boutique eco-resort with valley view</li>
+              <li><i class="fa-solid fa-circle-check"></i> Sunrise cloudwatch walk at Coaker's Walk</li>
+              <li><i class="fa-solid fa-circle-check"></i> Shola pine forest & Guna caves guided trail</li>
+              <li><i class="fa-solid fa-circle-check"></i> Artisanal cheese & chocolate sampling</li>
+            </ul>
+
+            <div class="pkg-footer">
+              <div class="pkg-price">
+                <span class="pkg-price-lbl">Starting from</span>
+                <span class="pkg-price-val">₹14,200 <small>/ person</small></span>
+              </div>
+              <button class="btn btn-primary btn-sm select-pkg-btn" data-package="Kodaikanal Shola Valley & Mist Retreat">
+                Inquire Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Package 5: Grand South -->
+          <div class="package-card glass-card">
+            <div class="pkg-header">
+              <span class="pkg-duration"><i class="fa-regular fa-clock"></i> 8 Days / 7 Nights</span>
+              <span class="pkg-badge">Signature Circuit</span>
+            </div>
+            <h3 class="pkg-title">Grand Southern Odyssey (Coast to Clouds)</h3>
+            <p class="pkg-route"><i class="fa-solid fa-route"></i> Kochi &rarr; Munnar &rarr; Alleppey &rarr; Ooty</p>
+            <p class="pkg-desc">The ultimate South Indian escape combining serene Kerala waterways with the high-altitude pine forests of the Nilgiri hills.</p>
+            
+            <ul class="pkg-features">
+              <li><i class="fa-solid fa-circle-check"></i> Combination of premium houseboat & hill resorts</li>
+              <li><i class="fa-solid fa-circle-check"></i> Nilgiri Toy Train experience included</li>
+              <li><i class="fa-solid fa-circle-check"></i> Daily gourmet breakfasts & chef dinners</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dedicated tour concierge 24/7</li>
+            </ul>
+
+            <div class="pkg-footer">
+              <div class="pkg-price">
+                <span class="pkg-price-lbl">Starting from</span>
+                <span class="pkg-price-val">₹36,500 <small>/ person</small></span>
+              </div>
+              <button class="btn btn-primary btn-sm select-pkg-btn" data-package="Grand Southern Odyssey (Coast to Clouds)">
+                Inquire Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Package 6: Misty Twins -->
+          <div class="package-card glass-card">
+            <div class="pkg-header">
+              <span class="pkg-duration"><i class="fa-regular fa-clock"></i> 6 Days / 5 Nights</span>
+              <span class="pkg-badge">Twin Highlands</span>
+            </div>
+            <h3 class="pkg-title">Misty Twins: Ooty & Kodaikanal</h3>
+            <p class="pkg-route"><i class="fa-solid fa-route"></i> Coimbatore &rarr; Ooty &rarr; Kodaikanal &rarr; Madurai</p>
+            <p class="pkg-desc">Experience both the 'Queen' and 'Princess' of South Indian hill stations in one unforgettable mountain road journey.</p>
+            
+            <ul class="pkg-features">
+              <li><i class="fa-solid fa-circle-check"></i> Scenic mountain hairpin-bend highway transfer</li>
+              <li><i class="fa-solid fa-circle-check"></i> Two premium valley-facing hill chalets</li>
+              <li><i class="fa-solid fa-circle-check"></i> Boating at Pykara Lake and Kodai Star Lake</li>
+              <li><i class="fa-solid fa-circle-check"></i> Campfire evenings with local guitarists</li>
+            </ul>
+
+            <div class="pkg-footer">
+              <div class="pkg-price">
+                <span class="pkg-price-lbl">Starting from</span>
+                <span class="pkg-price-val">₹27,800 <small>/ person</small></span>
+              </div>
+              <button class="btn btn-primary btn-sm select-pkg-btn" data-package="Misty Twins: Ooty & Kodaikanal">
+                Inquire Now
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Travel Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Visual Chronicles</span>
+          <h2 class="section-title">South India Through the <span class="gradient-text">Lens</span></h2>
+          <p class="section-subtitle">
+            Glimpse the ethereal landscapes, morning mist, glowing palaces, and serene waterways awaiting your arrival.
+          </p>
+        </div>
+
+        <!-- Gallery Filters -->
+        <div class="gallery-filters" id="galleryFilterTabs">
+          <button class="g-filter-btn active" data-gfilter="all">All Photos</button>
+          <button class="g-filter-btn" data-gfilter="kerala">Kerala</button>
+          <button class="g-filter-btn" data-gfilter="telangana">Telangana</button>
+          <button class="g-filter-btn" data-gfilter="ooty">Ooty</button>
+          <button class="g-filter-btn" data-gfilter="kodaikanal">Kodaikanal</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <!-- Item 1: Kerala Houseboat -->
+          <div class="gallery-item" data-gcat="kerala" data-src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=85" data-caption="Alleppey Backwaters Houseboat at Sunrise, Kerala" data-tag="Kerala">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80" alt="Alleppey Backwaters Houseboat" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Kerala</span>
+              <h4 class="overlay-title">Alleppey Backwaters</h4>
+              <p class="overlay-desc">Glide past emerald palms on handcrafted houseboats.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 2: Telangana Charminar -->
+          <div class="gallery-item" data-gcat="telangana" data-src="https://images.unsplash.com/photo-1605649487212-47bdab064df8?auto=format&fit=crop&w=1200&q=85" data-caption="Charminar Illuminated at Dusk, Hyderabad, Telangana" data-tag="Telangana">
+            <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df8?auto=format&fit=crop&w=600&q=80" alt="Charminar illuminated at dusk" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Telangana</span>
+              <h4 class="overlay-title">Charminar Monument</h4>
+              <p class="overlay-desc">16th-century architectural masterpiece of the Qutb Shahis.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 3: Ooty Hills -->
+          <div class="gallery-item" data-gcat="ooty" data-src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=85" data-caption="Mist-cloaked Nilgiri Tea Hills, Ooty" data-tag="Ooty">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Misty Nilgiri Tea Valleys" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Ooty</span>
+              <h4 class="overlay-title">Nilgiri Highlands</h4>
+              <p class="overlay-desc">Endless rolling carpet of fragrant tea gardens.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 4: Kodaikanal Cliffs -->
+          <div class="gallery-item" data-gcat="kodaikanal" data-src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85" data-caption="Pillar Rocks shrouded in mist, Kodaikanal" data-tag="Kodaikanal">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Pillar Rocks Kodaikanal" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Kodaikanal</span>
+              <h4 class="overlay-title">Pillar Rocks</h4>
+              <p class="overlay-desc">Dramatic 400-foot granite boulders in swirling clouds.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 5: Kerala Munnar Tea -->
+          <div class="gallery-item" data-gcat="kerala" data-src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1200&q=85" data-caption="Morning Mist in Munnar Tea Estates, Kerala" data-tag="Kerala">
+            <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=600&q=80" alt="Munnar Tea Hills Kerala" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Kerala</span>
+              <h4 class="overlay-title">Munnar Tea Valleys</h4>
+              <p class="overlay-desc">Dewdrops and morning sun over the Western Ghats.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 6: Telangana Fort Archeology -->
+          <div class="gallery-item" data-gcat="telangana" data-src="https://images.unsplash.com/photo-1616190419596-e2839e7380d7?auto=format&fit=crop&w=1200&q=85" data-caption="Historic Ramparts of Golconda Fortress, Telangana" data-tag="Telangana">
+            <img src="https://images.unsplash.com/photo-1616190419596-e2839e7380d7?auto=format&fit=crop&w=600&q=80" alt="Golconda Fortress Ramparts" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Telangana</span>
+              <h4 class="overlay-title">Golconda Fortress</h4>
+              <p class="overlay-desc">Ancient citadel known for acoustic vaults and diamond vaults.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 7: Ooty Toy Train & Pine -->
+          <div class="gallery-item" data-gcat="ooty" data-src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=85" data-caption="Mountain Train traversing through Nilgiri forests, Ooty" data-tag="Ooty">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80" alt="Mountain train in mist" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Ooty</span>
+              <h4 class="overlay-title">Nilgiri Mountain Rail</h4>
+              <p class="overlay-desc">Century-old steam railway bridging cloud-kissed peaks.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 8: Kodaikanal Pine Forest -->
+          <div class="gallery-item" data-gcat="kodaikanal" data-src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85" data-caption="Sunlight filtering through Pine Forests, Kodaikanal" data-tag="Kodaikanal">
+            <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&q=80" alt="Sunlit pine forest Kodai" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Kodaikanal</span>
+              <h4 class="overlay-title">Kodai Pine Forests</h4>
+              <p class="overlay-desc">Tall pine trunks and tranquil walking avenues in the clouds.</p>
+              <div class="zoom-btn"><i class="fa-solid fa-expand"></i></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us / Experiences Section -->
+    <section class="section experiences-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">The Dakshin Signature</span>
+          <h2 class="section-title">Designed for <span class="gradient-text">Exceptional Journeys</span></h2>
+          <p class="section-subtitle">Every itinerary is crafted with meticulous care to ensure luxury, comfort, authenticity, and peace of mind.</p>
+        </div>
+
+        <div class="experiences-grid">
+          <div class="exp-card glass-card">
+            <div class="exp-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <h4 class="exp-title">100% Bespoke Curation</h4>
+            <p class="exp-desc">Custom tailored to your pace, preferences, dietary choices, and travel style with zero rigid group itineraries.</p>
+          </div>
+
+          <div class="exp-card glass-card">
+            <div class="exp-icon"><i class="fa-solid fa-hotel"></i></div>
+            <h4 class="exp-title">Verified Heritage Stays</h4>
+            <p class="exp-desc">We personally inspect every plantation bungalow, palace retreat, and private eco-chalet for spotless quality.</p>
+          </div>
+
+          <div class="exp-card glass-card">
+            <div class="exp-icon"><i class="fa-solid fa-car-side"></i></div>
+            <h4 class="exp-title">Premium Sanitized Fleets</h4>
+            <p class="exp-desc">Courteous, English-fluent local chauffeurs with deep mountain driving experience and 24/7 navigation safety.</p>
+          </div>
+
+          <div class="exp-card glass-card">
+            <div class="exp-icon"><i class="fa-solid fa-headset"></i></div>
+            <h4 class="exp-title">Dedicated On-Ground Concierge</h4>
+            <p class="exp-desc">A live dedicated travel specialist on WhatsApp and phone assisting you every hour of your expedition.</p>
+          </div>
+        </div>
+
+        <!-- Traveler Testimonials -->
+        <div class="testimonials-wrap">
+          <div class="testimonial-card glass-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-text">
+              "Our Kerala houseboat experience was pure serenity. The crew prepared fresh Karimeen fish curry while we watched the sunset over Vembanad Lake. The attention to detail from the Dakshin team was extraordinary!"
+            </p>
+            <div class="testi-author">
+              <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="author-info">
+                <h5>Priya & Vikram Malhotra</h5>
+                <span>Traveled to Kerala & Ooty</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card glass-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-text">
+              "The Nizami heritage trail in Telangana blew us away. Walking through Golconda Fort with our private historian followed by a quiet mountain weekend in Kodaikanal was the most balanced, luxury vacation we've ever taken."
+            </p>
+            <div class="testi-author">
+              <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="author-info">
+                <h5>David & Sarah Jenkins</h5>
+                <span>Traveled to Telangana & Kodaikanal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Travel Inquiry & Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Start Planning</span>
+          <h2 class="section-title">Begin Your <span class="gradient-text">Southern Adventure</span></h2>
+          <p class="section-subtitle">
+            Share your travel vision with us. Our destination experts will craft a personalized day-by-day itinerary tailored to your preferences.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: Contact Details & Office -->
+          <div class="contact-info-panel glass-card">
+            <div class="panel-header">
+              <h3 class="panel-title">Let's Connect</h3>
+              <p class="panel-desc">Whether you have questions about the ideal season for Ooty or want a custom private Kerala houseboat, we are here for you.</p>
+            </div>
+
+            <div class="info-items-list">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                <div class="info-details">
+                  <span class="info-lbl">Direct Concierge Helpline</span>
+                  <a href="tel:+919876543210" class="info-link">+91 (0) 98765 43210</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="info-details">
+                  <span class="info-lbl">Email Inquiries</span>
+                  <a href="mailto:concierge@dakshintravels.com" class="info-link">concierge@dakshintravels.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="info-details">
+                  <span class="info-lbl">WhatsApp Assistance</span>
+                  <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="info-link">Instant Concierge Chat</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="info-details">
+                  <span class="info-lbl">Southern Experience Lounge</span>
+                  <span class="info-val">Banjara Hills, Hyderabad &amp; Fort Kochi, Kerala</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="contact-social-wrap">
+              <span class="social-lbl">Follow Our Journeys</span>
+              <div class="social-icons">
+                <a href="#contact" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#contact" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#contact" class="social-btn" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#contact" class="social-btn" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#contact" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Travel Inquiry Form -->
+          <div class="contact-form-panel glass-card">
+            <h3 class="form-title">Request a Custom Itinerary</h3>
+            <p class="form-subtext">No obligations. Receive your tailored route, handpicked hotel recommendations, and cost estimate within 24 hours.</p>
+
+            <form id="travelInquiryForm" class="inquiry-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Your Full Name <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <span class="input-icon"><i class="fa-regular fa-user"></i></span>
+                    <input type="text" id="fullName" name="fullName" placeholder="e.g. Ananya Sharma" required>
+                  </div>
+                  <span class="error-msg" id="nameError">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="emailAddress">Email Address <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <span class="input-icon"><i class="fa-regular fa-envelope"></i></span>
+                    <input type="email" id="emailAddress" name="emailAddress" placeholder="ananya@example.com" required>
+                  </div>
+                  <span class="error-msg" id="emailError">Please enter a valid email address</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phoneNumber">Phone / WhatsApp Number</label>
+                  <div class="input-wrap">
+                    <span class="input-icon"><i class="fa-solid fa-phone"></i></span>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+91 98765 43210">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="destinationSelect">Primary Destination <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <span class="input-icon"><i class="fa-solid fa-map-location-dot"></i></span>
+                    <select id="destinationSelect" name="destination" required>
+                      <option value="">Select Destination</option>
+                      <option value="Kerala">Kerala (Backwaters & Spice Hills)</option>
+                      <option value="Telangana">Telangana (Nizami Heritage & Forts)</option>
+                      <option value="Ooty">Ooty (Queen of Nilgiri Hills)</option>
+                      <option value="Kodaikanal">Kodaikanal (Princess of Hill Stations)</option>
+                      <option value="Combined South Tour">Combined South India Circuit</option>
+                    </select>
+                  </div>
+                  <span class="error-msg" id="destError">Please choose a destination</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="travelMonth">Preferred Travel Season</label>
+                  <div class="input-wrap">
+                    <span class="input-icon"><i class="fa-regular fa-calendar"></i></span>
+                    <select id="travelMonth" name="travelMonth">
+                      <option value="Next 30 Days">Next 30 Days</option>
+                      <option value="Oct - Dec (Winter Peak)">Oct - Dec (Winter Peak)</option>
+                      <option value="Jan - Mar (Spring Pleasant)">Jan - Mar (Spring Pleasant)</option>
+                      <option value="Apr - Jun (Summer Highland)">Apr - Jun (Summer Highland)</option>
+                      <option value="Jul - Sep (Monsoon Greenery)">Jul - Sep (Monsoon Greenery)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="guestCount">Number of Guests</label>
+                  <div class="input-wrap">
+                    <span class="input-icon"><i class="fa-solid fa-users"></i></span>
+                    <select id="guestCount" name="guestCount">
+                      <option value="Solo Traveler">Solo Traveler</option>
+                      <option value="Couple (2 Adults)" selected>Couple (2 Adults)</option>
+                      <option value="Small Family (3-4)">Small Family (3-4)</option>
+                      <option value="Group (5+ Travelers)">Group (5+ Travelers)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="travelNotes">Preferences &amp; Special Requests</label>
+                <div class="input-wrap">
+                  <textarea id="travelNotes" name="travelNotes" rows="3" placeholder="Tell us if you prefer private houseboats, heritage villas, photography stops, honeymoon amenities, or specific travel dates..."></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-gradient btn-block btn-submit" id="submitInquiryBtn">
+                <span class="btn-text">Submit Travel Inquiry</span>
+                <span class="btn-loader" style="display: none;"><i class="fa-solid fa-spinner fa-spin"></i> Processing...</span>
+                <i class="fa-solid fa-paper-plane btn-arrow"></i>
+              </button>
+
+              <p class="form-privacy-note">
+                <i class="fa-solid fa-lock"></i> Your information is confidential and will only be used to create your personalized journey plan.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Destination Detail Modal -->
+  <div class="modal-backdrop" id="destModalBackdrop" aria-hidden="true">
+    <div class="modal-dialog glass-panel" role="dialog" aria-modal="true" aria-labelledby="modalDestTitle">
+      <button class="modal-close-btn" id="destModalClose" aria-label="Close modal">&times;</button>
+      
+      <div class="modal-header-banner">
+        <img id="modalDestImg" src="" alt="Destination Image" class="modal-banner-img">
+        <div class="modal-banner-gradient"></div>
+        <div class="modal-banner-content">
+          <span class="modal-tag" id="modalDestTag">Region</span>
+          <h2 class="modal-title" id="modalDestTitle">Destination Name</h2>
+          <p class="modal-subtitle" id="modalDestSubtitle">Subtitle here</p>
+        </div>
+      </div>
+
+      <div class="modal-body-content">
+        <div class="modal-overview-section">
+          <h4>About This Destination</h4>
+          <p id="modalDestDescription">Description text goes here.</p>
+        </div>
+
+        <div class="modal-highlights-section">
+          <h4>Signature Highlights</h4>
+          <div class="modal-hl-grid" id="modalDestHighlights">
+            <!-- Dynamic highlights injected by JS -->
+          </div>
+        </div>
+
+        <div class="modal-info-strip">
+          <div class="info-strip-box">
+            <span class="strip-lbl"><i class="fa-regular fa-sun"></i> Best Weather</span>
+            <span class="strip-val" id="modalDestBestTime">Oct - Mar</span>
+          </div>
+          <div class="info-strip-box">
+            <span class="strip-lbl"><i class="fa-solid fa-plane-arrival"></i> Gateway Airport</span>
+            <span class="strip-val" id="modalDestAirport">Cochin (COK)</span>
+          </div>
+          <div class="info-strip-box">
+            <span class="strip-lbl"><i class="fa-solid fa-utensils"></i> Cuisine Highlight</span>
+            <span class="strip-val" id="modalDestFood">Local Delicacy</span>
+          </div>
+        </div>
+
+        <div class="modal-footer-actions">
+          <button class="btn btn-outline modal-close-action">Back to Overview</button>
+          <button class="btn btn-primary" id="modalBookNowBtn">
+            <span>Book This Journey</span> <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fullscreen Gallery Lightbox -->
+  <div class="lightbox-backdrop" id="galleryLightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+    
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg" class="lightbox-img">
+      <div class="lightbox-caption-bar">
+        <span class="lightbox-tag" id="lightboxTag">Region</span>
+        <h4 class="lightbox-caption" id="lightboxCaption">Image Caption</h4>
+        <span class="lightbox-counter" id="lightboxCounter">1 / 8</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Inquiry Confirmation Modal -->
+  <div class="modal-backdrop" id="successModalBackdrop" aria-hidden="true">
+    <div class="modal-dialog modal-sm glass-panel" role="dialog" aria-modal="true">
+      <div class="success-icon-wrap">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h3 class="success-title">Inquiry Received!</h3>
+      <p class="success-text" id="successModalText">
+        Thank you for choosing Dakshin. Your travel request has been logged under reference <strong id="successRefCode">#DAK-8492</strong>. Our destination specialist will get in touch with you shortly.
+      </p>
+      <button class="btn btn-gradient btn-block" id="successModalCloseBtn">Return to Destinations</button>
+    </div>
+  </div>
+
+  <!-- Floating Toast Notification -->
+  <div class="toast-notification" id="toastNotification" aria-live="polite">
+    <div class="toast-icon"><i class="fa-solid fa-bell"></i></div>
+    <div class="toast-body">
+      <strong class="toast-title">Notification</strong>
+      <p class="toast-msg">Message goes here</p>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-col brand-col">
+          <a href="#home" class="footer-brand">
+            <span class="brand-icon"><i class="fa-solid fa-compass"></i></span>
+            <span class="brand-text">DAKSHIN<span class="brand-dot">.</span></span>
+          </a>
+          <p class="brand-bio">
+            Crafting boutique, sustainable, and bespoke journeys through South India's most extraordinary natural wonders and cultural treasures.
+          </p>
+          <div class="footer-social-links">
+            <a href="#home" class="f-social" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#home" class="f-social" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#home" class="f-social" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#home" class="f-social" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Destinations</h4>
+          <ul class="footer-links">
+            <li><a href="#destinations" onclick="filterAndScroll('kerala')">Kerala Backwaters</a></li>
+            <li><a href="#destinations" onclick="filterAndScroll('telangana')">Telangana Heritage</a></li>
+            <li><a href="#destinations" onclick="filterAndScroll('ooty')">Ooty Nilgiri Hills</a></li>
+            <li><a href="#destinations" onclick="filterAndScroll('kodaikanal')">Kodaikanal Mist Valleys</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Experiences</h4>
+          <ul class="footer-links">
+            <li><a href="#packages">Alleppey Private Houseboats</a></li>
+            <li><a href="#packages">Nizami Culinary & Fort Trails</a></li>
+            <li><a href="#packages">UNESCO Toy Train Rides</a></li>
+            <li><a href="#packages">Shola Forest Eco Walks</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col newsletter-col">
+          <h4 class="footer-col-title">The Southern Dispatch</h4>
+          <p class="newsletter-desc">Subscribe to receive curated seasonal travel guides and exclusive secret boutique retreat spotlights.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <div class="newsletter-input-group">
+              <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+              <button type="submit" aria-label="Subscribe to newsletter"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Dakshin Expeditions Private Limited. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#home">Privacy Policy</a>
+          <span class="sep">&bull;</span>
+          <a href="#home">Terms of Service</a>
+          <span class="sep">&bull;</span>
+          <a href="#home">Responsible Tourism</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
